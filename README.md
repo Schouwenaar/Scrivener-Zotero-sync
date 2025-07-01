@@ -91,4 +91,21 @@ MIT License — use freely and adapt to your writing workflow!
 
 ---
 
+## 🗂️ Adjusting the Scrivener Compile Format
+
+To run the sync script automatically when compiling from Scrivener:
+
+1. Open **Compile…** → select **MultiMarkdown** or **Pandoc** as output.
+2. Click the **Processing** tab.
+3. Enable **Post-process on command-line**.
+4. Set the **Path** to your sync script, e.g. `/usr/local/bin/sync-biblio.sh`.
+5. Use `<$inputfile>` as the **Arguments** to pass your compiled `.md` file.
+6. Save the format for reuse.
+
+Use the **Section Layouts** and **Separators** tabs to tweak headings, front/back matter, and section mappings.
+
+Refer to Scrivener’s documentation for advanced compile settings.
+
+---
+
 **Happy writing and clean citations!**
