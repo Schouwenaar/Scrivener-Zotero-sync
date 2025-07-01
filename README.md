@@ -103,3 +103,16 @@ Refer to Scrivener’s documentation for advanced compile settings.
 ---
 
 **Happy writing and clean citations!**
+
+
+---
+
+Planned:
+
+1. One self-contained executable
+2. Zero hard-coded paths
+3. One-click Scrivener hook
+4. Cross-platform launcher
+5. Friendly errors & docs
+
+---
