@@ -85,12 +85,6 @@ See [python-bibtexparser v2 docs](https://bibtexparser.readthedocs.io/en/latest/
 
 ---
 
-## 📜 License
-
-MIT License — use freely and adapt to your writing workflow!
-
----
-
 ## 🗂️ Adjusting the Scrivener Compile Format
 
 To run the sync script automatically when compiling from Scrivener:
@@ -105,6 +99,12 @@ To run the sync script automatically when compiling from Scrivener:
 Use the **Section Layouts** and **Separators** tabs to tweak headings, front/back matter, and section mappings.
 
 Refer to Scrivener’s documentation for advanced compile settings.
+
+---
+
+## 📜 License
+
+MIT License — use freely and adapt to your writing workflow!
 
 ---
 
