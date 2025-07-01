@@ -2,7 +2,7 @@
 name = "scriv-sync"
 version = "1.1.0"
 description = "Sync your Scrivener project with Zotero and Pandoc, generating citekeys.md"
-authors = [{ name = "Chantal Schouwenaar", email = "chantal@slimoplossen.nl" }]
+authors = [{ name = "Chantal Schouwenaar", email = "YOUR EMAIL HERE" }]
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
