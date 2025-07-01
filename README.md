@@ -102,10 +102,4 @@ Refer to Scrivener’s documentation for advanced compile settings.
 
 ---
 
-## 📜 License
-
-MIT License — use freely and adapt to your writing workflow!
-
----
-
 **Happy writing and clean citations!**
