@@ -6,7 +6,7 @@ authors = [{ name = "Chantal Schouwenaar", email = "YOUR EMAIL HERE" }]
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "bibtexparser"
+    "bibtexparser>=2.0"
 ]
 
 [project.scripts]
