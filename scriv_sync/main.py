@@ -2,23 +2,6 @@ import sys
 import subprocess
 from pathlib import Path
 import shutil
-
-def ensure_installed(package):
-    try:
-        __import__(package)
-    except ImportError:
-        print(f"📦 Installing missing package: {package} ...")
-        if package == "bibtexparser":
-            subprocess.check_call([
-                sys.executable, "-m", "pip", "install",
-                "--no-cache-dir", "--force-reinstall",
-                "git+https://github.com/sciunto-org/python-bibtexparser@main"
-            ])
-        else:
-            subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-ensure_installed("bibtexparser")
-
 from bibtexparser import loads
 from bibtexparser.bparser import BibTexParser
 
